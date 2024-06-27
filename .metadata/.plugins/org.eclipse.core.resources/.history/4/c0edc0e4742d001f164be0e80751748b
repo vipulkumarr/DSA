@@ -1,0 +1,28 @@
+package com.vipul.DSA;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		
+		int num = 7;
+		int c=2;
+		while(c*c<num)
+		{
+			if(num%c==0)
+			{
+				System.out.println("Not a prime number");
+				break;
+			}
+			c=c+1;
+		}
+		if(c==num)
+		{
+			System.out.println("Prime number");
+		} else
+		{
+			System.out.println("Not a Prime number");
+		}
+
+	}
+
+}
