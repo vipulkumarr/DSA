@@ -1,0 +1,16 @@
+package Easy;
+
+import java.util.Scanner;
+
+public class TasteofFruite {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter fruite name");
+		String fruite = scan.next().trim();
+		Switch
+
+	}
+
+}
